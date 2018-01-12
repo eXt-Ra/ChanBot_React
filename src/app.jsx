@@ -1,16 +1,15 @@
 import React from 'react';
-import Navigation from './components/Navigation';
 import 'normalize.css';
 import 'styles/index.scss';
 
+import Message from './components/atoms/Message/Message.jsx';
+
 const App = () => (
   <div className='App'>
-    <Navigation/>
-    <div>
-      <h1>It Works!</h1>
-      <p>This React project just works including <span className="redBg">module</span> local styles.</p>
-      <p>Enjoy!</p>
-    </div>
+    <Message type={"my"} text={"Salut"}/>
+    <Message type={"their"} text={"Hey"}/>
+    <Message type={"my"} text={"tu vas bien ?"}/>
+		<Message type={"their"} text={""}/>
   </div>
 );
 
