@@ -15,17 +15,11 @@ newsSet = [
         ],
         'category': 'hello'
     },
-    {'text': ['J‘ai besoin de savoir une informaton ou une question'], 'category': 'question'},
-    {'text': ['J‘ai une question'], 'category': 'question'},
-    {'text': ['Aurevoir'], 'category': 'tiao'},
-    {'text': ['Merci, bonne journée !'], 'category': 'tiao'},
-    {'text': ['Top merci pour votre aide'], 'category': 'tiao'},
-    {'text': ['PSG / Marseille'], 'category': 'classico'},
-    {'text': ['Dimanche dernier'], 'category': 'classico'},
-    {'text': ['Evra'], 'category': 'classico'},
-
-    # {'text': 'Oui bonjour je vous écoute', 'category': 'hello'},
-    # {'text': 'Salut la team', 'category': 'hello'},
-    # {'text': 'Hello', 'category': 'hello'},
-    #
+    {
+            'text': [
+                'Quelles sont vos horaires ?',
+                'Quelles sont vos horaire ?'
+            ],
+            'category': 'horaire'
+        },
 ]

@@ -4,7 +4,7 @@
  * @param  {[type]} query [description]
  * @return {[type]}        [description]
  */
-export function query(text) {
+export default function query(text) {
   return new Promise((resolve, reject) => {
     const headers = { Accept: 'application/json', 'Content-Type': 'application/json' }
     const body = { text };

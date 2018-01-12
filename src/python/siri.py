@@ -27,7 +27,7 @@ def home():
     classification = ma_loop(params["text"])
     # gestion des probabilités
     category = classification[0][0]
-    return jsonify({ "category": category }), 201
+    return jsonify( classification ), 201
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

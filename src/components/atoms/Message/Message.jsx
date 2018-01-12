@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './Message.scss';
 
-import { Button } from 'semantic-ui-react';
+// import { Button } from 'semantic-ui-react';
 
 import Typing from './../Typing/Typing.jsx';
 
